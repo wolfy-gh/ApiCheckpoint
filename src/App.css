@@ -1,0 +1,39 @@
+* {
+  margin :0 ;
+  padding :0;
+}
+.App {
+  background-color: lightgray;
+}
+.header {
+  text-align: center;
+  padding: 2% 0 ;
+  background-color: rgb(70, 68, 68);
+  color: white;
+}
+.list_users{
+  display : flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%
+}
+.card_user{
+  padding :5px 10px 20px;
+  width: 35%;
+  background-color:white;
+  margin : 10px;
+  border-radius: 10px;
+}
+.header_card_user{
+  padding : 10px 5px;
+  text-align: center;
+  background-color: rgb(11, 155, 107);
+  color: white;
+  border-radius: 10px;
+}
+.body_card_user{
+  padding : 10px 20px;
+}
+p {
+  padding: 5px 10px;
+}
